@@ -42,9 +42,15 @@ body{
 
 .ms_accessories-btn:hover {
     opacity: 1;
+    border-bottom: 2px solid #2d64e6;
+
 }
 
 #ms_accessories-btn-selected {
     border-bottom: 2px solid #2d64e6;
     opacity: 1;
+}
+
+#ms_game-grid-bg {
+    background-color: #1f1f1f;
 }
