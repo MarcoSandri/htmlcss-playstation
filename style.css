@@ -54,3 +54,19 @@ body{
 #ms_game-grid-bg {
     background-color: #1f1f1f;
 }
+
+#ms_playstation-plus {
+    background-color: #bebcbb;
+}
+
+#ms_playstation-now {
+    background-color: #161c3b;
+}
+
+#ms_footer-bg {
+    background-color: #00439c
+}
+
+#ms_globe-icon {
+    width: 1rem;
+}
