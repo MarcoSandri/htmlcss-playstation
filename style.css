@@ -2,8 +2,6 @@ body{
     padding-top:106.08px;
 }
 
-
-
 #ms_logo-sony {
     width: 80px;
 }
@@ -33,4 +31,20 @@ body{
 .ms_game-gallery-btn:hover {
   transform: translate(0, -20px);
   outline: 2px solid #2d64e6;
+}
+
+.ms_accessories-btn {
+    display: block;
+    border-bottom: 2px solid #fff;
+    opacity: 0.5;
+    transition: 300ms;
+}
+
+.ms_accessories-btn:hover {
+    opacity: 1;
+}
+
+#ms_accessories-btn-selected {
+    border-bottom: 2px solid #2d64e6;
+    opacity: 1;
 }
