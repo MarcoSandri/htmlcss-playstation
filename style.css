@@ -39,14 +39,15 @@ body{
 /* PS5 Console */
 .ms_accessories-btn {
     display: block;
-    border-bottom: 2px solid #fff;
+    height: 100%;
+    border-bottom: 2px solid transparent;
     opacity: 0.5;
     transition: 300ms;
 }
 
 .ms_accessories-btn:hover {
-    opacity: 1;
     border-bottom: 2px solid #2d64e6;
+    opacity: 1;
 
 }
 
