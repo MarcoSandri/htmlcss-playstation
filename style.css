@@ -3,6 +3,67 @@ body{
     padding-top:106.08px;
 }
 
+/* Bottoni */
+
+.ms_btn-dark {
+    background-color: #363636;
+    border: 2px solid #363636;
+    transition: 200ms;
+}
+
+.ms_btn-dark:hover,
+.ms_btn-dark:focus {
+    background-color: #363636;
+    box-shadow: 0 0 0 2px #fff inset;
+    border: 2px solid #363636;
+
+}
+
+
+.ms_btn-red {
+    background-color: #cd3d0f;
+    border: 2px solid #cd3d0f;
+    transition: 200ms;;
+}
+
+.ms_btn-red:hover,
+.ms_btn-red:focus {
+    background-color: #cd3d0f;
+    box-shadow: 0 0 0 2px #000 inset;
+    border: 2px solid #cd3d0f;
+
+}
+
+
+.ms_btn-primary {
+    background-color: #2d64e6;
+    border: 2px solid #2d64e6;
+    transition: 200ms;;
+}
+
+.ms_btn-primary:hover,
+.ms_btn-primary:focus {
+    background-color: #2d64e6;
+    box-shadow: 0 0 0 2px #fff inset;
+    border: 2px solid #2d64e6;
+
+}
+
+
+.ms_btn-light {
+    background-color: #d9dadc;
+    border: 2px solid #d9dadc;
+    transition: 200ms;;
+}
+
+.ms_btn-light:hover,
+.ms_btn-light:focus {
+    background-color: #d9dadc;
+    box-shadow: 0 0 0 2px #000 inset;
+    border: 2px solid #d9dadc;
+
+}
+
 /* Header */
 #ms_logo-sony {
     width: 80px;
@@ -23,7 +84,7 @@ body{
 /* Game gallery */
 .ms_game-gallery-btn {
     border-radius: 25px;
-    border: 2px solid white;
+    border: 2px solid transparent;
     transition: transform 500ms;
 }
 
@@ -33,7 +94,6 @@ body{
 
 .ms_game-gallery-btn:hover {
   transform: translate(0, -20px);
-  outline: 2px solid #2d64e6;
 }
 
 /* PS5 Console */
